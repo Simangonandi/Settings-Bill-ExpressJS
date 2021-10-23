@@ -1,7 +1,7 @@
 {
-  "name": "settings-bill-expressjs",
+  "name": "yes",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build Status](https://app.travis-ci.com/Simango/Settings-Bill-ExpressJS.svg?branch=main)](https://app.travis-ci.com/Simangonandi/Settings-Bill-ExpressJS)",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/Simangonandi/Settings-Bill-ExpressJS.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "\"\",",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Simangonandi/Settings-Bill-ExpressJS/issues"
