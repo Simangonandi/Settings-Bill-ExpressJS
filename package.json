@@ -1,21 +1,21 @@
 {
-  "name": "yes",
+  "name": "settings-bill-expressjs",
   "version": "1.0.0",
-  "description": "[![Build Status](https://app.travis-ci.com/Simango/Settings-Bill-ExpressJS.svg?branch=main)](https://app.travis-ci.com/Simangonandi/Settings-Bill-ExpressJS)",
+  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "mocha",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Simangonandi/Settings-Bill-ExpressJS.git"
   },
   "keywords": [],
-  "author": "\"\",",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Simangonandi/Settings-Bill-ExpressJS/issues"
@@ -24,7 +24,8 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "express-handlebars": "^5.3.4"
+    "express-handlebars": "^5.3.3",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "mocha": "^9.1.1"

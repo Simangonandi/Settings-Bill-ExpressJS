@@ -1,1 +1,1 @@
-[![Build Status](https://app.travis-ci.com/Simango/Settings-Bill-ExpressJS.svg?branch=main)](https://app.travis-ci.com/Simangonandi/Settings-Bill-ExpressJS)
+[![Build Status](https://app.travis-ci.com/Simangonandi/Settings-Bill-ExpressJS.svg?branch=main)](https://app.travis-ci.com/Simangonandi/Settings-Bill-ExpressJS)

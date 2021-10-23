@@ -1,5 +1,7 @@
 module.exports = function SettingsBill() {
 
+    const moment = require('moment');
+
     let smsCost = 0.75;
     let callCost = 2.75;
     let warningLevel = 20;
@@ -10,7 +12,7 @@ module.exports = function SettingsBill() {
     function setSettings(settings) {
         if (settings.smsCost != "") {
             smsCost = Number(settings.smsCost);
-        } 
+        }
         if (settings.callCost != "") {
             callCost = Number(settings.callCost);
         }
@@ -34,17 +36,27 @@ module.exports = function SettingsBill() {
     function recordAction(action) {
 
         let cost = 0;
-        if (action === 'sms') {
-            cost = smsCost;
-        }
-        else if (action === 'call') {
-            cost = callCost;
+
+        if (hasReachedCriticalLevel() == false) {
+            if (action === 'sms') {
+                cost = smsCost;
+            }
+            else if (action === 'call') {
+                cost = callCost;
+            }
+        } else {
+            if (action === 'sms') {
+                cost;
+            }
+            else if (action === 'call') {
+                cost;
+            }
         }
 
         actionList.push({
             type: action,
             cost,
-            timestamp: new Date()
+            timestamp: moment().fromNow()
         });
     }
 
